@@ -1,6 +1,7 @@
 import random
-from typing import NoReturn
-r = random.randint(1, 100)
+start = int(input('請決定開始值: '))
+end = int(input('請決定結束值: '))
+r = random.randint(start, end)
 print(r)
 count = 0
 
